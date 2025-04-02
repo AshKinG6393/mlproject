@@ -12,14 +12,14 @@ def get_requirements(file_path:str)->List[str]:
 
         if HYPHEN_E_DOT in requirements:
             requirements.remove(HYPHEN_E_DOT)
-    return requirementsn
+    return requirements
 
 
 setup(
     name="mlproject23",
     version='0.0.1',
-    author="Utkarsh",
-    author_email='trivediutkarsh20@gmail.com',
+    author="Ashutosh",
+    author_email='ashu91221922@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
